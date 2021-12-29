@@ -1,0 +1,297 @@
+body{
+    max-width: 70%;
+    margin: 50px auto;
+}
+
+.container1{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    color: #772E25;
+}
+
+#image{
+    border-radius: 50%;
+    border: 2px solid #444444;
+    width: 200px;
+    height: 225px;
+}
+
+.info{
+    margin-left: 25%;
+    padding-top: 50px;
+}
+
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.work{
+    padding-top: 40px;
+    white-space: nowrap;
+    color: #772E25;
+}
+
+.job h4{
+    text-transform: uppercase;
+}
+
+.job{
+    margin-left: 27%;
+    padding-top: 50px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.academic{
+    padding-top: 40px; 
+    color: #772E25;
+}
+
+.edu h3{
+    text-transform: uppercase;
+}
+
+.edu h5 {
+    margin-top: -10px;
+}
+
+.edu{
+    margin-left: 20%;
+    padding-top: 50px;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.strength{
+    padding-top: 40px;
+    white-space: nowrap;
+    color: #772E25;
+}
+
+.skill h4{
+    text-transform: uppercase;
+}
+
+.skill{
+    margin-left: 30%;
+    padding-top: 50px;
+}
+
+h5{
+    color: #444444;
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    .work{
+        white-space: normal;
+    }
+
+    .strength{
+        white-space: normal;
+    }
+
+    .info{
+        margin-left: 23.5%;
+    }
+
+    .job{
+        margin-left: 40.5%;
+    }
+
+    .edu{
+        margin-left: 35%;
+    }
+
+    .skill{
+        margin-left: 43.5%;
+    }
+}
+
+/* Mobile 1*/
+@media only screen and (max-width: 426px) and (min-width: 377px){
+    .container1{
+        flex-direction: column;
+    }
+    .image{
+        margin-left: 15%;
+    }
+    .info{
+        margin-left: 20%;
+    }
+
+    .container2{
+        flex-direction: column;
+    }
+    .work{
+        margin-left: 20%;
+    }
+    .job{
+        padding-top: 0px;
+        margin-left: 20%;
+    }
+    ul{
+        padding-inline-start: 10px;
+    }
+
+    .container3{
+        flex-direction: column;
+    }
+    .academic{
+        margin-left: 20%;
+    }
+    .edu{
+        padding-top: 0px;
+        margin-left: 20%;
+    }
+    .edu h3{
+        text-transform:none;
+    }
+
+    .container4{
+        flex-direction: column;
+    }
+    .strength{
+        margin-left: 20%;
+    }
+    .skill{
+        padding-top: 0px;
+        margin-left: 20%;
+    }
+
+    #comma{
+        display: none;
+    }
+}
+
+/* Mobile 2*/
+@media only screen and (max-width: 376px) and (min-width: 321px){
+    .container1{
+        flex-direction: column;
+    }
+    .image{
+        margin-left: 10%;
+    }
+    .info{
+        margin-left: 15%;
+    }
+
+    .container2{
+        flex-direction: column;
+    }
+    .work{
+        margin-left: 15%;
+    }
+    .job{
+        padding-top: 0px;
+        margin-left: 15%;
+    }
+    ul{
+        padding-inline-start: 10px;
+    }
+
+    .container3{
+        flex-direction: column;
+    }
+    .academic{
+        margin-left: 15%;
+    }
+    .edu{
+        padding-top: 0px;
+        margin-left: 15%;
+    }
+    .edu h3{
+        text-transform:none;
+    }
+
+    .container4{
+        flex-direction: column;
+    }
+    .strength{
+        margin-left: 15%;
+    }
+    .skill{
+        padding-top: 0px;
+        margin-left: 15%;
+    }
+
+    #comma{
+        display: none;
+    }
+}
+
+/* Mobile 2*/
+@media only screen and (max-width: 320px){
+    .container1{
+        flex-direction: column;
+    }
+    .image{
+        margin-left: 5%;
+    }
+    .info{
+        margin-left: 10%;
+    }
+
+    .container2{
+        flex-direction: column;
+    }
+    .work{
+        margin-left: 10%;
+    }
+    .job{
+        padding-top: 0px;
+        margin-left: 10%;
+    }
+    ul{
+        padding-inline-start: 10px;
+    }
+
+    .container3{
+        flex-direction: column;
+    }
+    .academic{
+        margin-left: 10%;
+    }
+    .edu{
+        padding-top: 0px;
+        margin-left: 10%;
+    }
+    .edu h3{
+        text-transform:none;
+    }
+
+    .container4{
+        flex-direction: column;
+    }
+    .strength{
+        margin-left: 10%;
+    }
+    .skill{
+        padding-top: 0px;
+        margin-left: 10%;
+    }
+
+    #comma{
+        display: none;
+    }
+}
+
+/* Tablet and bigger*/
+@media only screen and (min-width: 427px){
+    #list{
+    display: none;
+    }
+}
